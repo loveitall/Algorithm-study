@@ -1,12 +1,12 @@
 ## 나는 요리사다 문제
 
 #  첫번째 풀이 방법
-# score = []
+score = []
 
-# for i in range(5):
-#     score.append(sum(map(int, input().split())))
+for i in range(5):
+    score.append(sum(map(int, input().split())))
 
-# print(score.index(max(score))+1, max(score))
+print(score.index(max(score))+1, max(score))
 
 
 # 2번째 풀이 방법
